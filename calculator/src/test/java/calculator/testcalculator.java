@@ -23,10 +23,10 @@ public class testcalculator {
 
 	@Test
 		public void additionTest() {
-			assertEquals(25, objCalculator.addition(12,13));
+			assertEquals(24, objCalculator.addition(12,12));
 		}
 		public void substractionTest() {
-			assertEquals(-1,objCalculator.substraction(12, 13));
+			assertEquals(1,objCalculator.substraction(12, 11));
 		}
 		public void divisionTest() {
 			assertEquals(0,objCalculator.division(12, 13));
